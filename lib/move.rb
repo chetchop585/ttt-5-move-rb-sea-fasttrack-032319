@@ -11,7 +11,7 @@ def input_to_index(user_input)
   index = Integer(user_input)
   index -= 1
   rescue ArgumentError
-  
+    return -1
   return index
 end
 
