@@ -9,4 +9,4 @@ puts "Gimme input"
 user_input = gets.strip
 user_input = input_to_index(user_input)
 move(board, user_input)
-display_board()
+display_board(baord)
